@@ -1,8 +1,3 @@
-#!/usr/bin/python3
-
-# Input: string
-# Output: string in capital letters 
-
-def make_string_big(string): 
+def make_string_big(string: str): 
 	return(string.upper())
 
